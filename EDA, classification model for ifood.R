@@ -6,7 +6,7 @@ library(tidyverse)
 library(caret)
 
 ## Data importation and cleaning
-customer_market_data <- read_excel("C:/Users/MR MIGWI/Desktop/WORK/PORTFOLIO/Diagnostic Analytics/customer_market_data.xlsx")
+customer_market_data <- read_excel("C:Diagnostic Analytics/customer_market_data.xlsx")
 View(customer_market_data)
 
 # Removing rows with empty entries in the income column
